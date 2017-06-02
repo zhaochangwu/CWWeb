@@ -3,43 +3,222 @@
 <head>
 <style type="text/css">
 body {background-color: white}
-p {margin-left: 100px; font-size: 40px}
+/*p {margin-left: 100px; font-size: 20px}*/
 h1 {color: blue; font-size: 40px}
 h2 {color: red}
 </style>
 </head>
 <body>
+  <figure>
+   <p>
+    Depression is running through my head,<br>
+    These thoughts make me think of death,<br>
+    A darkness which blanks my mind,<br>
+    A walk through the graveyard, what can I find?....
+   </p>
+   <figcaption><cite>Depression</cite>. By: Darren Harris</figcaption>
+  </figure>
+  <figure>
+    <figcaption><cite>Edsger Dijkstra :-</cite></figcaption>
+    <p>"If debugging is the process of removing software bugs, <br /> then programming must be the process of putting them in"</p>
+  </figure>
+  <figure>
+    <figcaption>Get browser details using navigator</figcaption>
+    <pre>
+    function NavigatorExample() {
+      var txt;
+      txt = "Browser CodeName: " + navigator.appCodeName;
+      txt+= "Browser Name: " + navigator.appName;
+      txt+= "Browser Version: " + navigator.appVersion ;
+      txt+= "Cookies Enabled: " + navigator.cookieEnabled;
+      txt+= "Platform: " + navigator.platform;
+      txt+= "User-agent header: " + navigator.userAgent;
+    }
+    </pre>
+  </figure>
+  <div class="">
+    <figure>
+    <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="An awesome picture">
+    </figure>
+    <p></p>
+    <!-- Figure with figcaption -->
+    <figure>
+      <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="An awesome picture"; width="200px">
+      <figcaption>Fig1. MDN Logo</figcaption>
+    </figure>
+  <p></p>
+  </div>
+  <dl>
+    <dt>Name</dt>
+    <dd>Godzilla</dd>
+    <dt>Born</dt>
+    <dd>1952</dd>
+    <dt>Birthplace</dt>
+    <dd>Japan</dd>
+    <dt>Color</dt>
+    <dd>Green</dd>
+  </dl>
+  <dl>
+  <dt>Firefox</dt>
+  <dd>A free, open source, cross-platform, graphical web browser
+      developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+  <dd>The Red Panda also known as the Lesser Panda, Wah, Bear Cat or Firefox,
+      is a mostly herbivorous mammal, slightly larger than a domestic cat
+      (60 cm long).</dd>
+  <dt>test</dt>
+  <dd>dd1</dd>
+  <dd>dd2</dd>
+  <!-- other terms and definitions -->
+</dl>
+  <blockquote cite="http://developer.mozilla.org">
+  <p>This is a quotation taken from the Mozilla Developer Center.</p>
+  </blockquote>
+  <p>Newlines in title should be taken into account,like this <abbr title="This isdghfghdfg a multiline title">example</abbr>.</p>
+  <section>
+    <h1>Heading</h1>
+    <p>Bunch of awesome content</p>
+  </section>
+  <nav>
+    <a href="http://www.baidu.com">baidu</a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <h2>test Jurassic Park</h2>
+  <p>test Dinos were great!</p>
+  <footer>
+    Some copyright info or perhaps some author info for an &lt;article&gt;?
+  </footer>
+  <article>
+    <p>
+      The Disney movie <em>The Little Mermaid</em> was
+      first released to theatres in 1989.
+    </p>
+    <aside dir="rtl">
+      The movie earned $87 million during its initial release.
+    </aside>
+    <p dir="ltr">
+      More info about the movie...
+    </p>
+  </article>
+  <article class="film_review">
+    <header>
+      <h2>Jurassic Park</h2>
+    </header>
+    <section class="main_review">
+      <p>Dinos were great!</p>
+    </section>
+    <section class="user_reviews">
+      <article class="user_review">
+        <p>Way too scary for me.</p>
+        <footer>
+          <p>
+            Posted on <time datetime="2015-05-16 19:00">May 16</time> by Lisa.
+          </p>
+        </footer>
+      </article>
+      <article class="user_review">
+        <p>I agree, dinos are my favorite.</p>
+        <footer>
+          <p>
+            Posted on <time datetime="2015-05-17 19:00">May 17</time> by Tom.
+          </p>
+        </footer>
+      </article>
+    </section>
+    <footer>
+      <p>
+        Posted on <time datetime="2015-05-15 19:00">May 15</time> by Staff.
+      </p>
+    </footer>
+  </article>
 
-<h4>无序列表</h4>
-<ul>
+  <address>
+      You can contact author at <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
+      If you see any bugs, please <a href="mailto:webmaster@somedomain.com">contact webmaster</a>.<br>
+      You may also want to visit us:<br>
+      Mozilla Foundation<br>
+      1981 Landings Drive<br>
+      Building K<br>
+      Mountain View, CA 94043-0801<br>
+      USA
+    </address>
 
-<li>first</li>
+  <pre>fa  as  kd   fj<b>lsdmj   asdklmjkasdfkl</b>gjklahsdfjkla</pre>
+  <p>fa  as  kd   fj<b>lsdmj   asdklmjkasdfkl</b>gjklahsdfjkla</p>
 
-</ul>
+  <div class="">
 
-<h1 align="center">My First Heading</h1>
-<h2>My First Heading</h2>
-<h3>My First <i>ii</i><br/>Heading</h3>
-<em>My
+  <h4>无序列表</h4>
+
+  <ul type="i">
+  <li>A</li>
+  <li>
+  <img src="images/bd_logo1.png" alt="logo">
+  </li>
+  <li>C</li>
+  <li>D</li>
+  <li>E</li>
+  <li>F</li>
+  </ul>
+
+  <h4>从10开始的有序列表</h4>
+
+  <ol start="10">
+  <li>AA</li>
+  <li>BB</li>
+  <li>CC</li>
+  <li>DD</li>
+  <li>EE</li>
+  <li>FF</li>
+  </ol>
+
+  <h4>从1开始的有序列表</h4>
+
+  <ol>
+  <li>a</li>
+  <li>b</li>
+  <li>c</li>
+  <li>d</li>
+  <li>e</li>
+  <li>f</li>
+  </ol>
+
+
+  <h4>定义列表</h4>
+
+  <dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+  </dl>
+
+  </div>
+
+  <div class="">
+  <h1 align="center">My First Heading</h1>
+  <h2>My First Heading</h2>
+  <h3>My First <i>ii</i><br/>Heading</h3>
+  <em>My
   <em>first
     <em>first</em>
   </em>≥
-</em>
-<p>My  paragraph.</p>
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
-<dfn>zheshiyigeyonghushuru </dfn>
-<a href="http://www.baidu.com"><img src="images/bd_logo1.png"/></a>
+  </em>
+  <p>My  paragraph.</p>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  <dfn>zheshiyigeyonghushuru </dfn>
+  <a href="http://www.baidu.com"><img src="images/bd_logo1.png"/></a>
 
-<p>WWF 的目标是：<q>构建人与自然和谐共存的世界。</q></p>
+  <p>WWF 的目标是：<q>构建人与自然和谐共存的世界。</q></p>
 
-<abbr>abbr</abbr>
-
-<samp>
-demo.example.com login: Apr 12 09:10:17
-Linux 2.6.10-grsec+gg3+e+fhs6b+nfs+gr0501+++p3+c4a+gr2b-reslog-v6.189
-</samp>
-
-<time>19:22:20</time>
+  <samp>
+  demo.example.com login: Apr 12 09:10:17
+  Linux 2.6.10-grsec+gg3+e+fhs6b+nfs+gr0501+++p3+c4a+gr2b-reslog-v6.189
+  </samp>
+  </div>
 </body>
 </html>

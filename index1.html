@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>index1</title>
+  </head>
+  <body contextmenu="share">
+    <menu type="context" id="share">
+      <menu label="share">
+        <menuitem label="Twitter" onclick="window.open('http://www.baidu.com');">Twitter</menuitem>
+        <menuitem label="Facebook" onclick="window.open('https://facebook.com/sharer/sharer.php?u=https://https://developer.mozilla.org/en/HTML/Element/Using_HTML_context_menus');">Facebook</menuitem>
+      </menu>
+    </menu>
+    <ol>
+      <li>Anywhere in the example you can share the page on Twitter and Facebook using the Share menu from your context menu.</li>
+      <li><pre contextmenu="changeFont" id="fontSizing">On this specific list element, you can change the size of the text by using the "Increase/Decrease font" actions from your context menu</pre></li>
+      <menu type="context" id="changeFont">
+        <menuitem label="Increase Font" onclick="incFont()"></menuitem>
+        <menuitem label="Decrease Font" onclick="decFont()"></menuitem>
+      </menu>
+      <li contextmenu="ChangeImage" id="changeImage">One the image below, you can fire the "Change Image" action in your Context Menu.</li><br />
+      <img src="https://developer.mozilla.org/media/img/promote/promobutton_mdn5.png" contextmenu="ChangeImage" id="promoButton" />
+      <menu type="context" id="ChangeImage">
+        <menuitem label="Change Image" onclick="changeImage()"></menuitem>
+      </menu>
+    </ol>
+  </body>
+</html>
